@@ -1,0 +1,202 @@
+
+:root{
+    --color-h1: rgba(255, 255, 255, 0.702);
+    --color-primary: #fff;
+    --color-black: black;
+    --color-transparent: rgba(246, 150, 121, 0);
+    --color-pink: #ff3333;
+}
+    
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR SECTION*/
+header{
+    background-image: url(/images/hero.png);
+    padding: 0; height: 100vh;
+    background-repeat: no-repeat;
+    position: center top;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 90%;
+    height: 55%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user_link{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    align-self: center;
+}
+
+.user_link nav ul{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+nav ul li{
+    margin-right: 22px;
+    font-size: 22px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color :var(--color-primary);
+}
+
+nav ul li a:hover{
+    color: var(--color-pink);
+}
+
+.info{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.info h1{
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--color-h1);
+    font-size: 28px;
+}
+
+.info h1 span{
+    font-family: Lato;
+    font-size: 75px;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    margin: 30px 0;
+}
+
+.info button{
+    color: var(--color-primary);
+    background-color: var(--color-transparent);
+    text-transform: uppercase;
+    border: 3px solid var(--color-primary);
+    font-size: 16px;
+    font-family: Lato;
+    border-radius: 5px;
+    padding: 18px 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info button:hover{
+    background-color: var(--color-pink);
+    font-size: 18px;
+}
+
+
+/* EXTRAS SECTION */
+.logo-container{
+    margin: 50px 0 70px 0;
+}
+
+.logos{
+    width: 90%;
+    margin: 0 0 0 150px;
+    display: flex;
+}
+
+.logos .box-image{
+    text-align: center;
+}
+
+figure{
+    margin: 0;
+}
+
+figcaption h3{
+    margin: 5px 0 0 0;
+    padding-bottom: 7px;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: bold;
+    color: var(--color-black);
+    border-bottom: 1px solid var(--color-pink);
+    display: inline-block;
+}
+
+figcaption p{
+    font-family: Lato;
+    color: var(--color-black);
+    margin:15px 20px;
+    font-size: 18px;
+}
+
+
+/* CUISiNES PICTURE SECTION*/
+.cuisines-container{
+    margin-top: 50px;
+    font-family: Lato;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.cuisines-container .box-image{
+    display: flex;
+    justify-content: center;
+    width:20%;
+    height: 230px;
+    flex-direction: column;
+    color:var(--color-primary);
+    text-align: center;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+}
+
+.cuisines-container .box-image h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.cuisines-container .box-image p{
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    font-family: Times New Roman;
+    color: var(--color-primary);
+    font-size: 18px;
+}
+
+
+/* FOOTER SECTION */
+footer{
+    margin-top: 5px;
+    border-top: 1px solid var(--color-black);
+    text-align: center;
+    font-size: 18px;
+    font-family: Lato;
+    height: 10vh;
+}
+
+footer div{
+        width: 81%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between; 
+}
